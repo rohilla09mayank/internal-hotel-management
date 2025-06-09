@@ -10,7 +10,7 @@ import Textarea from "../../ui/Textarea";
 import FormRow from "../../ui/FormRow";
 /* eslint-disable react/prop-types */
 
-function CreateCabinForm({ cabinToEdit }) {
+function CreateCabinForm({ cabinToEdit, onCloseModal }) {
   const { id: editId, ...editValues } = cabinToEdit || {};
   const isEditSession = Boolean(editId);
 
@@ -30,12 +30,18 @@ function CreateCabinForm({ cabinToEdit }) {
       editCabin(
         { data: { ...newCabin }, id: editId },
         {
-          onSuccess: () => reset(),
+          onSuccess: () => {
+            onCloseModal?.();
+            reset();
+          },
         }
       );
     else
       createCabin(newCabin, {
-        onSuccess: () => reset(),
+        onSuccess: () => {
+          onCloseModal?.();
+          reset();
+        },
       });
   }
 
@@ -46,7 +52,10 @@ function CreateCabinForm({ cabinToEdit }) {
   }
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit, onError)}>
+    <Form
+      onSubmit={handleSubmit(onSubmit, onError)}
+      type={onCloseModal ? "modal" : "regular"}
+    >
       <FormRow label="Cabin Name" errors={errors?.name?.message}>
         <Input
           type="text"
@@ -119,7 +128,11 @@ function CreateCabinForm({ cabinToEdit }) {
       </FormRow>
 
       <FormRow>
-        <Button variation="secondary" type="reset">
+        <Button
+          variation="secondary"
+          type="reset"
+          onClick={() => onCloseModal?.()}
+        >
           Cancel
         </Button>
         <Button disabled={isWorking}>{isEditSession ? "Edit" : "Add"}</Button>
