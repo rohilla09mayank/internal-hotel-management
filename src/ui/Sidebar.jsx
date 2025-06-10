@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Logo from "./Logo";
+import Uploader from "../data/Uploader";
 import MainNav from "./MainNav";
 
 const StyledSidebar = styled.aside`
@@ -17,6 +18,7 @@ function Sidebar() {
     <StyledSidebar>
       <Logo />
       <MainNav />
+      <Uploader />
     </StyledSidebar>
   );
 }
