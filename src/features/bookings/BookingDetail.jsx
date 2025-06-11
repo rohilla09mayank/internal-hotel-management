@@ -15,6 +15,7 @@ import Spinner from "../../ui/Spinner";
 import { useNavigate } from "react-router-dom";
 import { useCheckout } from "../check-in-out/useCheckout";
 import { useCheckin } from "../check-in-out/useCheckin";
+import Empty from "../../ui/Empty";
 
 const HeadingGroup = styled.div`
   display: flex;
@@ -37,6 +38,7 @@ function BookingDetail() {
   };
 
   if (isLoading) return <Spinner />;
+  if (!bookingData) return <Empty resourceName="booking" />;
   const { id, status } = bookingData;
   return (
     <>

@@ -14,6 +14,7 @@ const LogoText = styled.p`
   font-weight: 700;
   font-size: 2rem;
   color: var(--color-brand-500);
+  margin-top: 10px;
 `;
 
 function Logo() {
