@@ -6,73 +6,73 @@ export const cabins = [
   {
     name: "001",
     maxCapacity: 2,
-    regularPrice: 250,
+    regularPrice: 280,
     discount: 0,
     image: imageUrl + "cabin-001.jpg",
     description:
-      "Discover the ultimate luxury getaway for couples in the cozy wooden cabin 001. Nestled in a picturesque forest, this stunning cabin offers a secluded and intimate retreat. Inside, enjoy modern high-quality wood interiors, a comfortable seating area, a fireplace and a fully-equipped kitchen. The plush king-size bed, dressed in fine linens guarantees a peaceful nights sleep. Relax in the spa-like shower and unwind on the private deck with hot tub.",
+      "A peaceful lakeside escape perfect for couples. Featuring rustic charm with a modern twist, this cabin includes a queen-sized bed, cozy fireplace, and a private deck overlooking serene waters. Ideal for romantic weekends or quiet reflection.",
   },
   {
     name: "002",
     maxCapacity: 2,
-    regularPrice: 350,
-    discount: 25,
+    regularPrice: 330,
+    discount: 30,
     image: imageUrl + "cabin-002.jpg",
     description:
-      "Escape to the serenity of nature and indulge in luxury in our cozy cabin 002. Perfect for couples, this cabin offers a secluded and intimate retreat in the heart of a picturesque forest. Inside, you will find warm and inviting interiors crafted from high-quality wood, a comfortable living area, a fireplace and a fully-equipped kitchen. The luxurious bedroom features a plush king-size bed and spa-like shower. Relax on the private deck with hot tub and take in the beauty of nature.",
+      "Tucked away in the woods, The Hideaway offers intimacy and comfort for two. Enjoy stylish interiors, a luxurious hot tub, and a fully-equipped kitchen. Perfect for celebrating anniversaries or escaping city life.",
   },
   {
     name: "003",
     maxCapacity: 4,
-    regularPrice: 300,
+    regularPrice: 310,
     discount: 0,
     image: imageUrl + "cabin-003.jpg",
     description:
-      "Experience luxury family living in our medium-sized wooden cabin 003. Perfect for families of up to 4 people, this cabin offers a comfortable and inviting space with all modern amenities. Inside, you will find warm and inviting interiors crafted from high-quality wood, a comfortable living area, a fireplace, and a fully-equipped kitchen. The bedrooms feature plush beds and spa-like bathrooms. The cabin has a private deck with a hot tub and outdoor seating area, perfect for taking in the natural surroundings.",
+      "Designed for small families or friends, Forest Nook blends comfort with convenience. With two bedrooms, a shared living space, and a warm wooden aesthetic, it’s a charming base for nature hikes and bonfire nights.",
   },
   {
     name: "004",
     maxCapacity: 4,
-    regularPrice: 500,
-    discount: 50,
+    regularPrice: 480,
+    discount: 40,
     image: imageUrl + "cabin-004.jpg",
     description:
-      "Indulge in the ultimate luxury family vacation in this medium-sized cabin 004. Designed for families of up to 4, this cabin offers a sumptuous retreat for the discerning traveler. Inside, the cabin boasts of opulent interiors crafted from the finest quality wood, a comfortable living area, a fireplace, and a fully-equipped gourmet kitchen. The bedrooms are adorned with plush beds and spa-inspired en-suite bathrooms. Step outside to your private deck and soak in the natural surroundings while relaxing in your own hot tub.",
+      "Positioned for breathtaking views, Sunset Point offers elevated living with expansive windows, a luxe kitchen, and a scenic patio. Great for families who love sunsets, nature, and upscale amenities.",
   },
   {
     name: "005",
     maxCapacity: 6,
-    regularPrice: 350,
+    regularPrice: 370,
     discount: 0,
     image: imageUrl + "cabin-005.jpg",
     description:
-      "Enjoy a comfortable and cozy getaway with your group or family in our spacious cabin 005. Designed to accommodate up to 6 people, this cabin offers a secluded retreat in the heart of nature. Inside, the cabin features warm and inviting interiors crafted from quality wood, a living area with fireplace, and a fully-equipped kitchen. The bedrooms are comfortable and equipped with en-suite bathrooms. Step outside to your private deck and take in the natural surroundings while relaxing in your own hot tub.",
+      "The Cedar Haven combines rustic aesthetics with spacious functionality. Accommodating up to 6, it’s ideal for families or groups with kids. Comes with a full kitchen, shared lounge area, and a deck for outdoor meals.",
   },
   {
     name: "006",
     maxCapacity: 6,
-    regularPrice: 800,
-    discount: 100,
+    regularPrice: 850,
+    discount: 150,
     image: imageUrl + "cabin-006.jpg",
     description:
-      "Experience the epitome of luxury with your group or family in our spacious wooden cabin 006. Designed to comfortably accommodate up to 6 people, this cabin offers a lavish retreat in the heart of nature. Inside, the cabin features opulent interiors crafted from premium wood, a grand living area with fireplace, and a fully-equipped gourmet kitchen. The bedrooms are adorned with plush beds and spa-like en-suite bathrooms. Step outside to your private deck and soak in the natural surroundings while relaxing in your own hot tub.",
+      "A luxurious option for mid-sized groups, Grand Oak Lodge boasts elegant decor, two fireplaces, high ceilings, and an open-plan living area. With spa-style bathrooms and a hot tub deck, comfort meets class here.",
   },
   {
     name: "007",
     maxCapacity: 8,
-    regularPrice: 600,
-    discount: 100,
+    regularPrice: 620,
+    discount: 80,
     image: imageUrl + "cabin-007.jpg",
     description:
-      "Accommodate your large group or multiple families in the spacious and grand wooden cabin 007. Designed to comfortably fit up to 8 people, this cabin offers a secluded retreat in the heart of beautiful forests and mountains. Inside, the cabin features warm and inviting interiors crafted from quality wood, multiple living areas with fireplace, and a fully-equipped kitchen. The bedrooms are comfortable and equipped with en-suite bathrooms. The cabin has a private deck with a hot tub and outdoor seating area, perfect for taking in the natural surroundings.",
+      "Spacious and refined, Woodland Villa caters to larger families or group gatherings. Multiple bedrooms, a large dining area, and entertainment options make it ideal for getaways and reunions in nature.",
   },
   {
     name: "008",
     maxCapacity: 10,
-    regularPrice: 1400,
+    regularPrice: 1450,
     discount: 0,
     image: imageUrl + "cabin-008.jpg",
     description:
-      "Experience the epitome of luxury and grandeur with your large group or multiple families in our grand cabin 008. This cabin offers a lavish retreat that caters to all your needs and desires. The cabin features an opulent design and boasts of high-end finishes, intricate details and the finest quality wood throughout. Inside, the cabin features multiple grand living areas with fireplaces, a formal dining area, and a gourmet kitchen that is a chef's dream. The bedrooms are designed for ultimate comfort and luxury, with plush beds and en-suite spa-inspired bathrooms. Step outside and immerse yourself in the beauty of nature from your private deck, featuring a luxurious hot tub and ample seating areas for ultimate relaxation and enjoyment.",
+      "The ultimate luxury retreat, Mountain Majesty is designed for grandeur and comfort. With five bedrooms, a gourmet kitchen, and panoramic mountain views, it’s a favorite for corporate retreats and family celebrations alike.",
   },
 ];
