@@ -51,12 +51,14 @@ An internal admin panel built for hotel staff to manage cabins, bookings, and se
 
 ```bash
 src/
-├── components/         # Reusable UI components
-├── features/           # Feature-specific logic (cabins, bookings, dashboard, etc.)
+├── context/            # Context for theme
+├── features/           # Feature-specific logic and components (cabins, bookings, dashboard, etc.)
 ├── hooks/              # Custom hooks
 ├── pages/              # Route-based page components
 ├── services/           # Supabase client and API helpers
 ├── styles/             # Global and theme-based styles
+├── ui/                 # Presentational and reusable components
+├── utils/              # Helper functions
 └── App.jsx             # Main application file
 ```
 
