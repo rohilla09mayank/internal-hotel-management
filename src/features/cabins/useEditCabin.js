@@ -14,7 +14,6 @@ export function useEditCabin() {
       queryClient.invalidateQueries({
         queryKey: ["cabins"],
       });
-      //   reset();
     },
     onError: (err) => {
       toast.error(err.message);

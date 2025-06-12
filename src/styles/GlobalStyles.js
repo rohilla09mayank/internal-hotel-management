@@ -3,7 +3,6 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 
 :root {
-  /* Indigo */
   --color-brand-50: #eef2ff;
   --color-brand-100: #e0e7ff;
   --color-brand-200: #c7d2fe;
@@ -20,7 +19,6 @@ const GlobalStyles = createGlobalStyle`
 
   &, &.light-mode{
 
-    /* Grey */
     --color-grey-0: #fff;
     --color-grey-50: #f9fafb;
     --color-grey-100: #f3f4f6;
@@ -55,9 +53,6 @@ const GlobalStyles = createGlobalStyle`
     --shadow-lg: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.12);
   }
 
-  
-
-  /* For dark mode */
   --image-grayscale: 0;
   --image-opacity: 100%;
 
@@ -108,7 +103,6 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
   margin: 0;
 
-  /* Creating animations for dark mode */
   transition: background-color 0.3s, border 0.3s;
 }
 
@@ -156,7 +150,6 @@ select:focus {
   outline-offset: -1px;
 }
 
-/* Parent selector, finally 😃 */
 button:has(svg) {
   line-height: 0;
 }
@@ -183,16 +176,8 @@ h6 {
 
 img {
   max-width: 100%;
-
-  /* For dark mode */
   filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
 }
-
-/*
-FOR DARK MODE
-
-
-*/
 `;
 
 export default GlobalStyles;

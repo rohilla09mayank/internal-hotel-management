@@ -1,8 +1,7 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 import Button from "./Button";
 import Heading from "./Heading";
-
-/* eslint-disable react/prop-types */
 
 const StyledConfirmDelete = styled.div`
   width: 40rem;

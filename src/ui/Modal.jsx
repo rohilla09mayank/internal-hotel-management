@@ -1,10 +1,10 @@
+/* eslint-disable react/prop-types */
 import { cloneElement, createContext, useContext, useState } from "react";
 import styled from "styled-components";
 import { createPortal } from "react-dom";
 
 import { HiXMark } from "react-icons/hi2";
 import { useOutsideClick } from "../hooks/useOutsideClick";
-/* eslint-disable react/prop-types */
 
 const StyledModal = styled.div`
   position: fixed;
@@ -48,9 +48,6 @@ const CloseButton = styled.button`
   & svg {
     width: 2.4rem;
     height: 2.4rem;
-    /* Sometimes we need both */
-    /* fill: var(--color-grey-500);
-    stroke: var(--color-grey-500); */
     color: var(--color-grey-500);
   }
 `;

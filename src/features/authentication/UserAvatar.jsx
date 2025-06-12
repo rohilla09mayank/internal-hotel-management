@@ -24,10 +24,7 @@ const Avatar = styled.img`
 
 function UserAvatar() {
   const { user, isLoading } = useUser();
-
   if (isLoading) return <SpinnerMini />;
-
-  // if (!user) return null;
 
   const { fullName = "User", avatar } = user.user_metadata || {};
 

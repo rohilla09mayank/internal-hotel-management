@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useForm } from "react-hook-form";
 import { useEditCabin } from "./useEditCabin";
 import { useAddCabin } from "./useAddCabin";
@@ -8,7 +9,6 @@ import Button from "../../ui/Button";
 import FileInput from "../../ui/FileInput";
 import Textarea from "../../ui/Textarea";
 import FormRow from "../../ui/FormRow";
-/* eslint-disable react/prop-types */
 
 function CreateCabinForm({ cabinToEdit, onCloseModal }) {
   const { id: editId, ...editValues } = cabinToEdit || {};
@@ -142,16 +142,6 @@ function CreateCabinForm({ cabinToEdit, onCloseModal }) {
         </Button>
         <Button disabled={isWorking}>{isEditSession ? "Edit" : "Add"}</Button>
       </FormRow>
-
-      {/* 
-
-      <FormRow>
-
-        <Button variation="secondary" type="reset">
-          Cancel
-        </Button>
-        <Button disabled={isAdding}>Add cabin</Button>
-      </FormRow> */}
     </Form>
   );
 }

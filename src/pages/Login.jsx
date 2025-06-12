@@ -19,6 +19,15 @@ function Login() {
       <Logo />
       <Heading as="h4">Log into your account</Heading>
       <LoginForm />
+      <div>
+        <Heading as="h5">Demo Account</Heading>
+        <Heading as="h6">
+          <b>Email</b> : test@email.com
+        </Heading>
+        <Heading as="h6">
+          <b>Password</b> : 12345678
+        </Heading>
+      </div>
     </LoginLayout>
   );
 }

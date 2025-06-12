@@ -1,10 +1,9 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 import Tag from "../../ui/Tag";
 import Button from "../../ui/Button";
 import CheckoutButton from "./CheckoutButton";
 import { Link } from "react-router-dom";
-
-/* eslint-disable react/prop-types */
 
 const StyledTodayItem = styled.li`
   display: grid;

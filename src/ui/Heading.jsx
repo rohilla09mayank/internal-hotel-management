@@ -30,7 +30,23 @@ const Heading = styled.h1`
       text-align: center;
     `}
 
-  line-height: 1.4
+    line-height: 1.4;
+
+  ${(props) =>
+    props.as === "h5" &&
+    css`
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: red;
+      text-align: center;
+    `}
+  ${(props) =>
+    props.as === "h6" &&
+    css`
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-align: center;
+    `}
 `;
 
 export default Heading;

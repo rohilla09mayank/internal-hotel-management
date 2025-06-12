@@ -1,10 +1,10 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 
 import { createContext, useContext, useState } from "react";
 import { useOutsideClick } from "../hooks/useOutsideClick";
 import { HiEllipsisVertical } from "react-icons/hi2";
 import { createPortal } from "react-dom";
-/* eslint-disable react/prop-types */
 
 const Menu = styled.div`
   display: flex;

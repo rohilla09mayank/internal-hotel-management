@@ -9,8 +9,8 @@ import { useNavigate } from "react-router-dom";
 
 function LoginForm() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("mayank@gmail.com");
-  const [password, setPassword] = useState("qwerty");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const { login, isLogging } = useLogin();
 
   function handleSubmit(e) {

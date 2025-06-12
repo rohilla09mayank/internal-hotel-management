@@ -4,11 +4,6 @@ const StyledLogo = styled.div`
   text-align: center;
 `;
 
-// const Img = styled.img`
-//   height: 9.6rem;
-//   width: auto;
-// `;
-
 const LogoText = styled.p`
   text-transform: uppercase;
   font-weight: 700;
@@ -20,7 +15,6 @@ const LogoText = styled.p`
 function Logo() {
   return (
     <StyledLogo>
-      {/* <Img src="/logo-light.png" alt="Logo" /> */}
       <LogoText>Admin Panel</LogoText>
     </StyledLogo>
   );

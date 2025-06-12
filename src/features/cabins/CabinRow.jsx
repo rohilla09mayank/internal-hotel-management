@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 
 import { HiPencil, HiSquare2Stack, HiTrash } from "react-icons/hi2";
@@ -10,7 +11,6 @@ import Menus from "../../ui/Menus";
 import { useDeleteCabin } from "./useDeleteCabin";
 import { formatCurrency } from "../../utils/helpers";
 import { useAddCabin } from "./useAddCabin";
-/* eslint-disable react/prop-types */
 
 const Img = styled.img`
   display: block;
